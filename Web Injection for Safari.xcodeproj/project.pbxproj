@@ -21,10 +21,11 @@
 		1A2FA25C28F5365100CC34B9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FA25B28F5365100CC34B9 /* images */; };
 		1A2FA25E28F5365100CC34B9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FA25D28F5365100CC34B9 /* manifest.json */; };
 		1A2FA26028F5365100CC34B9 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FA25F28F5365100CC34B9 /* background.js */; };
-		1A2FA26228F5365100CC34B9 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FA26128F5365100CC34B9 /* content.js */; };
 		1A2FA26428F5365100CC34B9 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FA26328F5365100CC34B9 /* popup.html */; };
 		1A2FA26628F5365100CC34B9 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FA26528F5365100CC34B9 /* popup.css */; };
 		1A2FA26828F5365100CC34B9 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FA26728F5365100CC34B9 /* popup.js */; };
+		1A2FA27528F5379100CC34B9 /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FA27428F5379100CC34B9 /* jquery.js */; };
+		1A2FA27928F538BA00CC34B9 /* web_injection.js in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FA27828F538BA00CC34B9 /* web_injection.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,12 +70,13 @@
 		1A2FA25B28F5365100CC34B9 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		1A2FA25D28F5365100CC34B9 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		1A2FA25F28F5365100CC34B9 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		1A2FA26128F5365100CC34B9 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		1A2FA26328F5365100CC34B9 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		1A2FA26528F5365100CC34B9 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		1A2FA26728F5365100CC34B9 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		1A2FA26928F5365100CC34B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A2FA26A28F5365100CC34B9 /* Web_Injection_for_Safari_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Web_Injection_for_Safari_Extension.entitlements; sourceTree = "<group>"; };
+		1A2FA27428F5379100CC34B9 /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		1A2FA27828F538BA00CC34B9 /* web_injection.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = web_injection.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,10 +158,11 @@
 				1A2FA25B28F5365100CC34B9 /* images */,
 				1A2FA25D28F5365100CC34B9 /* manifest.json */,
 				1A2FA25F28F5365100CC34B9 /* background.js */,
-				1A2FA26128F5365100CC34B9 /* content.js */,
+				1A2FA27828F538BA00CC34B9 /* web_injection.js */,
 				1A2FA26328F5365100CC34B9 /* popup.html */,
 				1A2FA26528F5365100CC34B9 /* popup.css */,
 				1A2FA26728F5365100CC34B9 /* popup.js */,
+				1A2FA27428F5379100CC34B9 /* jquery.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -264,7 +267,8 @@
 				1A2FA25C28F5365100CC34B9 /* images in Resources */,
 				1A2FA25E28F5365100CC34B9 /* manifest.json in Resources */,
 				1A2FA25A28F5365100CC34B9 /* _locales in Resources */,
-				1A2FA26228F5365100CC34B9 /* content.js in Resources */,
+				1A2FA27528F5379100CC34B9 /* jquery.js in Resources */,
+				1A2FA27928F538BA00CC34B9 /* web_injection.js in Resources */,
 				1A2FA26828F5365100CC34B9 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

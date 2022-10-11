@@ -15,13 +15,20 @@
     },
 
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background.js",
+        "persistent": false
     },
 
-    "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
-    }],
+    "content_scripts": [
+        {
+            "matches": [ "https://www.disneyplus.com/*", "https://www.netflix.com/*"],
+            "js": [ "jquery.js" ]
+        },
+        {
+            "matches": [ "https://www.disneyplus.com/*", "https://www.netflix.com/*"],
+            "js": [ "web_injection.js" ]
+        }
+    ],
 
     "action": {
         "default_popup": "popup.html",
@@ -35,5 +42,5 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": [ "nativeMessaging", "tabs" ]
 }
